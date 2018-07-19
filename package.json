@@ -1,13 +1,15 @@
 {
   "name": "litecollective",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.3",
+  "description": "A lightweight package that provides exact the same postinstall action as the original opencollective package but with a much smaller footprint (200KB vs 24MB).",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {},
-  "bin": "index.js",
+  "bin": {
+    "litecollective": "index.js"
+  },
   "keywords": [
     "opencollective",
     "litecollective"
@@ -15,8 +17,17 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk-lite": "^1.0.0",
     "minimist": "^1.2.0",
     "node-fetch": "^2.1.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anhappydeer/litecollective.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anhappydeer/litecollective/issues"
+  },
+  "homepage": "https://github.com/bashalulu/litecollective#readme"
 }
