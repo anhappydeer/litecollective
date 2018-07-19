@@ -1,6 +1,6 @@
 {
   "name": "litecollective",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight package that provides exact the same postinstall action as the original opencollective package but with a much smaller footprint (200KB vs 24MB).",
   "main": "index.js",
   "directories": {
@@ -29,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/anhappydeer/litecollective/issues"
   },
-  "homepage": "https://github.com/bashalulu/litecollective#readme"
+  "homepage": "https://github.com/anhappydeer/litecollective#readme"
 }
